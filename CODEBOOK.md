@@ -10,6 +10,23 @@ Below is a summary of information about the 3rd Module of Coursera's Data Scienc
 
 ### Script Used for Cleaning Data:
 * run_analysis.R
+Notes: The following steps were done to clean the data:
+* Download dataset files into the working directory.
+* Extract dataset files from .zip file.
+* Load features and activity labels into R Studio.
+* Load training set, training labels, and training subjects from UCI HAR Dataset/train folder into R Studio.
+* Load test set, test labels, and test subjects from UCI HAR Dataset/test folder into R Studio.
+* Retrieve mean and standard deviation measurements from features into selectedFeatures.
+* Extract mean and standard deviation measurements only from training and test sets using selectedFeatures.
+* Standardize selected features names by apply camel casing and removing non-alphanumeric characters.
+* Merge training dataset, labels, and subjects.
+* Merge test dataset, labels, and subjects.
+* Merge training and test datasets.
+* Rename mergedDataSet column names with descriptive names,
+* Convert mergedDataSet$activity and mergedDataSet$subject into factors.
+* Melt mergedDataSet with subject and activity columns as id (melt into mergedDataSet_Melted).
+* Cast mergedDataSet_Melted into mergedDataSet_Mean.
+* Export tidy data into a text file (row.names = FALSE, as per instruction).
 
 ### Variables:
 * subject - the test subject's ID.
