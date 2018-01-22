@@ -1,7 +1,7 @@
 # gettingAndCleaningData_datasciencecoursera
 This repository contains the files for Module 3: Getting and Cleaning Data of Coursera's Data Science course. Included in this repository are the following files:
 * README.md - contains information about the repository.
-* CODEBOOK.md - contains a summary of relevant information in cleaning the data, along with a list of variables.
+* CodeBook.md - contains a summary of relevant information in cleaning the data, along with a list of variables.
 * run_analysis.R - contains all R scripts used for cleaning the data.
 
 Running the run_analysis.R on R Studio accomplishes the following using the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip:
