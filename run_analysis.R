@@ -1,7 +1,8 @@
 ## Coursera Data Science Course
-# Module 3: Getting and Cleaning Data
+# Module 3: Getting and Cleaning Data - R Script
 # User: jbtduremdes
 
+## Below are the necessary code used for cleaning the data from the 3rd Module of Coursera's Data Science Peer Assessment Project:
 # Download dataset files into the working directory.
 filename <- "raw_dataset.zip"
 url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
