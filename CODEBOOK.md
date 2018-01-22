@@ -1,8 +1,8 @@
 # Coursera Data Science Course
-### Module 3: Getting and Cleaning Data - Code Book
-### User: jbtduremdes
+Module 3: Getting and Cleaning Data - Code Book
+User: jbtduremdes
 
-### Below is a summary of information about the 3rd Module of Coursera's Data Science Peer Assessment Project:
+Below is a summary of information about the 3rd Module of Coursera's Data Science Peer Assessment Project:
 
 ### Dataset Source:
 * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
