@@ -34,7 +34,7 @@ testSubjects <- read.table("UCI HAR Dataset/test/subject_test.txt")
 # Retrieve mean and standard deviation measurements from features.
 selectedFeatures <- grep(".*mean.*|.*std.*", as.character(features[, 2]))
 
-# Extract mean and standard deviation measurements only from training and test sets using featuresSelected.
+# Extract mean and standard deviation measurements only from training and test sets using selectedFeatures.
 trainingSet <- trainingSet[selectedFeatures]
 testSet <- testSet[selectedFeatures]
 
@@ -63,7 +63,7 @@ mergedDataSet$subject <- as.factor(mergedDataSet$subject)
 # Melt mergedDataSet with subject and activity columns as id.
 mergedDataSet_Melted <- melt(mergedDataSet, id = c("subject", "activity"))
 
-# Cast mergedDataSetMelted.
+# Cast mergedDataSet_Melted.
 mergedDataSet_Mean <- dcast(mergedDataSet_Melted, subject + activity ~ variable, mean)
 
 # Export tidy data into a text file (row.names = FALSE, as per instruction).
