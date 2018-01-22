@@ -10,7 +10,9 @@ Below is a summary of information about the 3rd Module of Coursera's Data Scienc
 
 ### Script Used for Cleaning Data:
 * run_analysis.R
-Notes: The following steps were done to clean the data:
+
+Notes: The following steps were done to clean the data.
+
 * Download dataset files into the working directory.
 * Extract dataset files from .zip file.
 * Load features and activity labels into R Studio.
