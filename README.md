@@ -3,6 +3,7 @@ This repository contains the files to be submitted for Module 3: Getting and Cle
 * README.md - contains information about the repository.
 * CodeBook.md - contains a summary of relevant information in cleaning the data, along with a list of variables.
 * run_analysis.R - contains all R scripts used for cleaning the data.
+* tidy_dataset.txt - contains the tidy data set produced after cleaning the data, transferred to a text file as per instructions.
 
 Running the run_analysis.R on R Studio accomplishes the following using the dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip:
 1. Merges the training and the test sets to create one data set.
